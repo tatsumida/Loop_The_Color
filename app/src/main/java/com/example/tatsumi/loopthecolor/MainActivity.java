@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             //クリック時に呼ばれるイベント
             @Override
             public void onClick(View view){
-                String str = "こんにちは";
+                String str = "HELLO";
                 textView.setText(str);
             }
         });
